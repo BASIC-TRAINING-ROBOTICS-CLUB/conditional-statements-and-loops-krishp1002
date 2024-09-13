@@ -1,0 +1,11 @@
+Free Fall Calculator
+
+Task: Develop a program to calculate the time of fall, final velocity, and displacement for an object in free fall from a given height. 
+Ensure the program correctly handles the physics of free fall and provides accurate results.
+
+
+Develop a library that incoorporates the necessary functions or classes to perform essential calculations required by users. 
+Also submit a document file about the things you learned while doing the task( be it mathematics, logic or even code syntax ).
+
+Documentation is mandatory regardless of whether the task is completed.If the task is not completed, provide a detailed explanation of the technical 
+reasons or challenges that prevented its completion.
