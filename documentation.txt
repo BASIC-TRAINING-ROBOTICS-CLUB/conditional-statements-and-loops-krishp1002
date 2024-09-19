@@ -3,16 +3,10 @@ I am krish parmar (grc_id:25GRC1034).The task that i assigned was to make free f
 Task: Develop a program to calculate the time of fall, final velocity, and displacement for an object in free fall from a given height. 
 Ensure the program correctly handles the physics of free fall and provides accurate results.
 
-During this task first i studied what is free fall and its other related terminologies and mathematical formulas to it .
-So basically free fall is the motion of an object falling solely under the influence of gravity, with no other forces acting on it.
-Here influence of gravity is 9.81 m/s2.So I defined value of gravity in my code.And as defined in task that height will be given by user so,we will use scanf function.
-As we know that in physics there are already formulas given for values that we have to find.
+ This library provides a simple interface to calculate the velocity, time, and distance of an object in free fall under the influence of gravity. It allows users to compute these values based on the equations of motion.
+The library will consist of a header file (freefall.h) and an implementation file (freefall.c).
+Header file contains the function prototypes and constants used by the library.
+Implementation file contains the actual implementation of the functions declared in the header file.
 
-Formulas ,
-   time to fall = squareroot(2*height/gravity)
-   final velocity = gravity* time to fall
-   displacement = (1.0 / 2.0) * gravity * square(time to fall)
-
-As we can see that there are mathematical functions such as square root and square so,therefore we will use math.h library.
-
-  
+After creating .h and .c file of library we can use it in our code by including the header file(#include "free_fall.h") in our program .
+This library simplifies free fall calculations by encapsulating the core logic in reusable functions. By creating a clear interface, it can be integrated into any larger project requiring physics-based computations.
